@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px; /* change width */
+  height: 10px; /* change height */
+  border-radius: 100%; /* add border-radius */
+}
+
+h4 {
+    color: white;
+}
