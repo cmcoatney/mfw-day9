@@ -1,0 +1,24 @@
+#before li::before {
+  content: "::before";
+  background: lightgray;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+}
+
+#emoji li {
+  list-style-type: "👉";
+  padding-inline-start: 1ch;
+}
+
+#marker li::marker {
+  color: hotpink;
+}
+
+li:first-child::marker {
+  font-size: 5rem;
+}
+
+#hover li:hover::marker {
+  color: blue;
+}
